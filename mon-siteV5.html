@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Noix de vie</title>
+  <style>
+    body {
+      background-image: url('https://img.freepik.com/photos-gratuite/amandes-dans-bol-fond-sombre_1150-45096.jpg?w=996&t=st=1685885016~exp=1685885616~hmac=df2fe2e0459c4798e197bd1b6d22bf5891c96a7c430419b749eb912c0bb8d2b1'); /* Chemin vers votre image */
+      background-repeat: no-repeat; /* Empêche la répétition de l'image */
+      background-size: cover; /* Ajuste la taille de l'image pour couvrir l'ensemble de la fenêtre */
+    }
+    
+    h1, h2, p {
+      font-family: "Poppins", sans-serif; /* Police Poppins */
+      font-weight: bold; /* Gras */
+      color: #000; /* Noir */
+    }
+    
+    main {
+      display: flex; /* Afficher les sections en ligne */
+    }
+    
+    section {
+      flex: 1; /* Partage équitable de l'espace horizontal */
+      padding: 20px; /* Espacement intérieur */
+    }
+    
+    .sub-section {
+      display: none; /* Masquer les sous-sections par défaut */
+    }
+    
+    section:hover .sub-section {
+      display: block; /* Afficher les sous-sections au survol de la section */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Noix de vie</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#section1">Nos engagements</a></li>
+      <li><a href="#section2">Les Amandes</a></li>
+      <li><a href="#section3">Les noix de Cajou</a></li>
+      <li><a href="#section4">Les tisanes</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="section1">
+      <h2>Nos engagements</h2>
+      <ul class="sub-section">
+        <li>Sous-section 1.1</li>
+        <li>Sous-section 1.2</li>
+      </ul>
+    </section>
+
+    <section id="section2">
+      <h2>Les Amandes</h2>
+      <ul class="sub-section">
+        <li>Sous-section 2.1</li>
+        <li>Sous-section 2.2</li>
+      </ul>
+    </section>
+
+    <section id="section3">
+      <h2>Les noix de Cajou</h2>
+      <ul class="sub-section">
+        <li>Sous-section 3.1</li>
+        <li>Sous-section 3.2</li>
+      </ul>
+    </section>
+
+    <section id="section4">
+      <h2>Les tisanes</h2>
+      <ul class="sub-section">
+        <li>Sous-section 4.1</li>
+        <li>Sous-section 4.2</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
